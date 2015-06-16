@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Men's Sunglasses</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#edgeleft{
+	height:1650px;
+}
+#edgeright{
+	height:1650px;
+}
+#content {
+	height:1488px;
+}
+span {
+	color:#F00;
+}
+p {
+	margin-left:15px;
+}
+#questions {
+	list-style:none;
+}
+</style>
+</head>
+
+
+<body onload="MM_preloadImages('images/Bvlgari_BV501162_a1sideS.png')">
+<!-- Container Start -->
+<div id="container">
+<div id="edgeleft">&nbsp;</div>
+<div id="edgeright">&nbsp;</div>
+
+
+<!-- Header Start -->
+<div id="header">
+	<div id="logo"><a href="home.htm"><img src="images/logo.png" alt="Logo" width="342" height="90" border="0" /></a></div>
+	<div id="logincart">Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="shoppingcart.htm">Checkout</a></div>
+<!-- Navigation Start -->
+	<div id="navigation">
+    	<div id="navigationbutton">
+		<ul>
+			<li class="navbutton"><a href="gallerymen.htm">Mens</a></li>
+			<li class="navbutton"><a href="gallerywomen.htm">Womens</a></li>
+			<li class="navbutton"><a href="faq.htm">FAQ</a></li>
+			<li class="navbutton"><a href="contactus.htm">Contact Us</a></li>
+		</ul>
+		</div>
+	</div>
+	<div id="navendsleft">&nbsp;</div>
+	<div id="navendsright">&nbsp;</div>
+<!-- Navigation End -->
+</div>
+<!-- Header End -->
+
+
+<!-- Content Start -->
+<div id="content">
+
+<h2>Frequently Asked Questions</h2>
+<!-- FAQ Start -->
+<div style="width:942px; margin:14px 22px 0 22px; ">
+<ul id="questions">
+<li><a href="#payment">What are my payment options?</a></li>
+<li><a href="#status">How can I check my order status?</a></li>
+<li><a href="#changeorder">What if I need to make a change or have questions regarding my order?</a></li>
+<li><a href="#shipping">Shipping and Delivery</a></li>
+<li><a href="#refund">When do I get my refund once I have returned an item?</a></li>
+<li><a href="#return">How do I return an item?</a></li>
+<li><a href="#repairs">How can I get defective parts or frames repaired?</a></li>
+<li><a href="#security">Is your site secure?</a></li>
+</ul><br/>
+
+If you are unable to find answers to your questions here, please feel free to <span>contact us<!-- link --></span>.<br/><br/>
+
+<h3 id="payment">What are my payment options?</h3>
+<p>We can accept the following methods of payment:
+<ul style="padding-left:35px;">
+<li>Visa</li>
+<li>Discover</li>
+<li>MasterCard</li>
+<li>American Express</li>
+<li>Money Orders</li>
+<li>PayPal</li>
+</ul>
+</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="status">How can I check my order status?</h3>
+<p>Information regarding the status of your order will be sent to you via email. If you have not received an order confirmation email shortly after placing your order, please first check your email spam filter before contacting customer service. When your order ships from our warehouse, you will receive a shipping confirmation e-mail containing tracking information for your packages. If you've received your tracking information, go to <span>My Account<!-- link, are we calling it "My Account" --></span> to track your shipment.</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="changeorder">What if I need to make a change or have questions regarding my order?</h3>
+<p>Once the order has been placed, it cannot be changed online. Therefore, we encourage you to review your order carefully before submitting. If you need to make an immediate change to your order or cancel your order, please call us <span>toll-free at 1-888-502-5569,<!-- phone number? --></span> Monday - Friday, 8am to 6pm PST. For all other questions or concerns, you can email us via our online form. Please include as much information about your order as possible, starting with your order number, your first and last name and your billing zip code.</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="shipping">Shipping and Delivery</h3>
+<p>All orders are processed once credit card authorization and verification have been obtained. Orders are shipped Monday - Friday.</p>
+
+<p>Standard Shipping: Shipping within the US takes 7-10 days <span>International orders will arrive within 2-3 weeks<!-- are we doing international sales? --></span>.</p>
+
+<p>3-5 Day Express Shipping: To the Continental US takes 3-5 Business Days, pending credit card authorization and verification. Add 1 day to orders placed after 1P EST. <span>Express shipping to AK, HI, Puerto Rico is an additional $10. Not available in American Samoa, Guam, Marshall Islands, Micronesia, Palau, the Virgin Islands, APO, FPO, PO Boxes, Canada, Europe, Japan or the rest of the world.<!-- international? --></span></p>
+
+<p>2 Day Business Shipping: For all orders placed prior to 1pm EST shipping to Continental US, the package will arrive on the 2nd Business Day, pending credit card authorization and verification. <span>Not available to AK, HI, Puerto Rico, American Samoa, Guam, Marshall Islands, Micronesia, Palau, the Virgin Islands, APO, FPO, PO Boxes, Canada, Europe, Japan or the rest of the world.<!-- international? --></span></p>
+
+<p>Overnight: For all orders placed prior to 1pm EST shipping to Continental US, the package will arrive on the next Business Day, pending credit card authorization and verification. <span>Not available to AK, HI, Puerto Rico, American Samoa, Guam, Marshall Islands, Micronesia, Palau, the Virgin Islands, APO, FPO, PO Boxes, Canada, Europe, Japan or the rest of the world.<!-- international? --></span></p>
+
+<p>Saturday Delivery: Orders must be placed by Friday before 1pm EST to arrive in the current week. Any orders placed after 1pm EST on Friday will arrive on the following Saturday.</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="refund">When do I get my refund once I have returned an item?</h3>
+<p>Once we have received the item into our warehouse we will process a refund onto the original payment credit card within two weeks.</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="return">How do I return an item?</h3>
+<p>We want you to be satisfied. Please return any unworn item within 30 days from the ship date. We'll be glad to make an exchange, credit your account or refund your payment. For returns received after 30 days we'll be glad to issue a merchandise credit. Follow the instructions on the return form on the back of your packing slip (do not throw out your packing slip - this serves as your receipt). For exchanges, there is no additional shipping charge. Shipping and handling on returned merchandise is nonrefundable. Please allow up to three weeks for processing.</p>
+ <a href="#content">Back to top</a><br/><br/>
+
+<h3 id="repairs">How can I get defective parts or frames repaired?</h3>
+<p>We offer the full manufacturer warranty policy on all of the products to ensure complete satisfaction. Please note that this does not cover accidental damage. Defective parts or frames can be repaired or replaced at no cost to you. We will exchange the product if it is available on-hand or provide credit towards another should the product no longer be available. Please <span>contact us<!-- link --></span> prior to shipping the product for instructions and to receive a service number.</p>
+<a href="#content">Back to top</a><br/><br/>
+
+<h3 id="security">Is your site secure?</h3>
+<p>Yes, our website has security measures in place to protect the loss, misuse and alterations of the information under our control. All customer information (like e-mail address and more importantly, credit card information) is transferred using HTTPS (secure http) and SSL (Secure Socket Layer), which insure the protection of your online transactions. Meaning, your personal information is encrypted by your browser and then decrypted by the Web server (our site), rendering the information unreadable.</p>
+<a href="#content">Back to top</a>
+
+</div>
+<!-- FAQ End -->
+</div>
+<!-- Content End -->
+
+<!-- Footer Start -->
+<div id="footer">&nbsp;</div>
+<!-- Footer End -->
+
+</div>
+<!-- Container End -->
+</body>
+</html>

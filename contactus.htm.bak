@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Customer Service</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+#contactinfo {
+	float:left;
+	width:325px;
+	padding:20px;
+	background:#903;
+}
+
+#contactform {
+	float:left;
+	width:575px;
+	padding:20px;
+	background:#666;
+}
+
+</style>
+</head>
+
+
+<body>
+<div id="container">
+
+<div id="header">
+  <p id="logincart">Login | Shopping Cart</p>
+</div>
+
+<div id="navigationbar">
+    <div id="navigation">
+  <ul>
+    <li><a href="gallery.htm">Womens</a></li>
+    <li><a href="gallery.htm">Mens</a></li>
+    <li><a href="customerservice.htm">Customer Service</a></li>
+  </ul>
+</div>
+</div>
+
+<div>
+<h1>Customer Support</h1>
+<div id="content">
+
+<div id="contactinfo">
+Available Times<br />
+Phone<br />
+Fax
+</div>
+<div id="contactform">
+(Contact us form)
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	background:#797471;
+	background-image:url(images/bodyBkg.jpg);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	/*font-size:62.5%;*/
+}
+img{
+	border:none;
+	border-style:none;
+	border-color:none;
+}
+#container {
+	position:relative;
+	width:1000px;
+	margin: 0 auto;
+	background-color:#a1a0a1;
+	background-image:url(images/containerBkg.gif);
+	background-repeat:repeat;
+	box-shadow: 0 0 15px #333;
+	-moz-box-shadow: 0 0 15px #333;
+	-webkit-box-shadow: 0 0 15px #333;
+	border-bottom-left-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+}
+#edgeleft{
+	float:left;
+	width:20px;
+	height:700px;
+	margin:0;
+	background-image:url(images/contentEdgeBkgL.png);
+	background-repeat:repeat-y;
+}
+#edgeright{
+	float:right;
+	width:20px;
+	height:700px;
+	margin:0;
+	background-image:url(images/contentEdgeBkgR.png);
+	background-repeat:repeat-y;
+}
+
+
+/* Header Start */
+#header {
+	width:1000px;
+	height:125px;
+	margin: 0 auto;
+	background:#a1a0a1;
+	background-image:url(images/headBkg2.jpg);
+	background-repeat:no-repeat;
+	position:fixed;
+	top:0;
+}
+#logo{
+	width:342px;
+	height:90px;
+	padding: 30px 48px 5px 48px;
+}
+#logincart {
+	float:right;
+	margin-top: -110px;
+	margin-right: 23px;
+	font: Georgia;
+	font-size:1em;
+	color:#000;
+}
+#logincart a{
+	text-decoration:none;
+	color:#000;
+}
+#logincart a:hover{
+	text-decoration:underline;
+	color:#000;
+}
+/* Navigation Start */
+#navigation {
+	width:1022px;
+	height:37px;
+	margin-left:-11px;
+	position:relative;
+	background:#d9d9d9;
+	background-image:url(images/dividerBar.gif);
+	background-repeat:repeat-x;
+	box-shadow: 0 10px 20px #5c5558;
+	-moz-box-shadow: 0 10px 20px #5c5558;
+	-webkit-box-shadow: 0 10px 20px #5c5558;
+}
+#navigationbutton {
+	position:absolute;
+	font-family: Georgia;
+	font-size: 1.1em;
+	bottom:0;
+	right:0;
+}
+#navigationbutton ul {
+ 	list-style: none;
+	text-align: center;
+}
+#navigationbutton li {
+	float:left;
+}
+.navbutton a {
+	display:block;
+	width:115px;
+	height:30px;
+	margin:0;
+	padding-top:7px;
+}
+.navbutton a:link, .navbutton a:visited{
+	background:url("images/navButtons.jpg") no-repeat 0 0;
+	background-color: #949494;
+	color:#d9d9d9;
+	text-decoration: none;
+}
+.navbutton a:hover, .navbutton a:focus{
+	background-position:-115px 0;
+	background-color: #5c5558;
+	color:#ffffff;
+	text-shadow: 0 0 10px #FFF;
+	-moz-text-shadow: 0 0 10px #FFF;
+	-webkit-text-shadow: 0 0 10px #FFF;
+}
+#navendsleft{
+	width:11px;
+	height:44px;
+	margin-top:-37px;
+	margin-left:-11px;
+	background-image:url(images/dividerEndsL.png);
+	background-repeat:no-repeat;
+}
+#navendsright{
+	width:11px;
+	height:44px;
+	margin-top:-44px;
+	float:right;
+	margin-right:-11px;
+	background-image:url(images/dividerEndsR.png);
+	background-repeat:no-repeat;
+}
+/* Navigation End */
+/* Header End */
+
+
+/* Content Start */
+h2 {
+	font-family: Georgia;
+	font-size: 2em;
+	color: #5c5558;
+}
+#content {
+	width:1000px;
+	height:538px;
+	margin: 0 auto;
+	padding: 184px 28px 0 28px;
+}
+/* Gallery Start */
+.gallery{
+	float:left;
+	width:270px;
+	height:210px;
+	margin:14px 22px 30px 22px;
+	background-image: url(images/galleryBkg.png);
+}
+.gallery a{
+	text-decoration:none;
+}
+.gallery a:hover{
+	text-decoration:underline;
+	color:#616161;
+}
+.name {
+	font-family: Arial;
+	font-size: 0.8em;
+	color: #3b3b3b;
+	padding-left:12px;
+	margin-top:0px;
+	text-transform:capitalize;
+}
+.title {
+	font-family: Arial;
+	font-size: .8em;
+	color: #616161;
+	padding-left:12px;
+}
+.price {
+	font-family: Georgia;
+	font-size: .8em;
+	color: #616161;
+	padding-left:12px;
+}
+/* Gallery End */
+/* Footer Start */
+#footer{
+	width:1000px;
+	height:50px;
+	margin-top:-22px;
+	margin-bottom:15px;
+	background-image:url(images/footerEdgeBkg.png);
+	background-repeat:no-repeat;
+}
+/* Footer End */
+/* Content End */

@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Product Details</title>
+<link href="stylesheet1.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+	//Append a div with hover class to all the LI
+	$('#navigationbutton li').append('<div class="hover"><\/div>');
+
+
+	$('#navigationbutton li').hover(
+		
+		//Mouseover, fadeIn the hidden hover class	
+		function() {
+			
+			$(this).children('div').fadeIn('50000000');	
+		
+		}, 
+	
+		//Mouseout, fadeOut the hover class
+		function() {
+		
+			$(this).children('div').fadeOut('5000');	
+		
+	})/*.click (function () {
+	
+		//Add selected class if user clicked on it
+		$(this).addClass('selected');
+		
+	})*/;
+
+});
+
+</script>
+
+
+
+<style type="text/css">
+
+#bottomgallery {
+	height:120px;
+	background:#dddddc;
+	position:fixed;
+	bottom:0;
+	margin:0 auto;
+	width:1000px;	
+	border-top:1px solid #3b3b3b;
+	box-shadow: 0px 0px 15px #3b3b3b;
+	-moz-box-shadow: 0px 0px 15px #3b3b3b;
+	-webkit-box-shadow: 0px 0px 15px #3b3b3b;
+}
+
+#prodimg {
+	float: left;
+	width:480px;
+	height:307px;
+/*	background:#963;*/
+}
+
+#details {
+	float: left;
+	width:470px;
+}	
+
+#details h1{
+	font:2.4em Georgia, "Times New Roman", Times, serif;
+	color: #323232;	
+}
+
+#details h2 {
+	font: italic 1.8em Georgia, "Times New Roman", Times, serif;
+	color: #323232;
+}
+
+#details #price {
+	font: 1.7em/3em Georgia, "Times New Roman", Times, serif;
+	color: #676767;
+	display: block;
+}
+
+#details #glassesDesc {
+	font: 1.4em Arial, Helvetica, sans-serif;
+	color: #323232;
+	display: block;
+}
+
+#details h3 {
+	font: 1.7em Georgia, "Times New Roman", Times, serif;
+	color: #323232;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+form label {
+	font: 1.7em Georgia, "Times New Roman", Times, serif;
+	color: #323232;
+	
+}
+
+form{
+	margin-top:20px;
+}
+
+form #qty {
+	width: 2.5em;
+	text-align: right;
+	font:Arial, Helvetica, sans-serif;
+	margin-right:25px;
+}
+
+#bottomgallery img {
+	margin:14px 4px;
+	border:1px solid #dddddc;
+}
+
+#bottomgalleryCont {
+
+	width:950px;
+	margin:0 auto;
+}
+
+input{
+	border:none;	
+}
+
+.button{
+	width:90px;
+	height:25px;
+	background:url(images/greenButtons.png) no-repeat top left;
+	font: bold 1.3em Arial, Helvetica, sans-serif;
+	color: #fff;
+	display: block;
+	margin-top:20px;
+	text-shadow: 1px 1px 2px #24473d;
+	-moz-text-shadow: 1px 1px 2px #24473d;
+	-webkit-text-shadow: 1px 1px 2px #24473d;
+}
+
+.button:hover{
+	background:url(images/greenButtons.png) no-repeat 0 -25px;
+	color: #e4e4e4;
+	padding-left:1px;
+}
+
+#container #picker {
+	/*85px is all the way on the left.  Add 160px per item you want it pointed to */
+	background: url(images/picker.png) no-repeat 885px 0;
+	height:16px;
+	width:1000px;
+	position:fixed;
+	bottom:120px;
+	z-index:20;
+}
+
+#content{
+	line-height	
+}
+
+#bottomgalleryCont a img:hover {
+	border:1px solid #cccccd;
+}
+
+#colors img {
+	margin-right: 6px;
+}
+
+#colors a img:hover, #colors a#selected img{
+	box-shadow: 3px 3px 2px #8a8a8a;
+	-moz-box-shadow: 3px 3px 2px #8a8a8a;
+	-webkit-box-shadow: 3px 3px 2px #8a8a8a;
+}
+</style>
+</head>
+
+
+<body>
+<div id="container">
+    <div id="edgeleft"> </div>
+    <div id="edgeright"> </div>
+
+    <div id="header">
+        <div id="logo"><a href="home.htm"><img src="images/logo.png" alt="Logo" width="342" height="90" border="0" /></a>
+        </div>
+        
+        <div id="logincart">Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="shoppingcart.htm">Checkout</a></div>
+    <!-- Navigation Start -->
+        <div id="navigation">
+            <ul id="navigationbutton">                
+                    <li><a href="gallerymen.htm">Mens</a></li>
+                    <li><a href="gallerywomen.htm">Womens</a></li>
+                    <li><a href="faq.htm">FAQ</a></li>
+                    <li><a href="contactus.htm">Contact Us</a></li>
+            </ul>
+            
+        </div>
+        <div id="navendsleft">&nbsp;</div>
+        <div id="navendsright">&nbsp;</div>
+    <!-- Navigation End -->
+    </div>
+    <!-- Header End -->
+
+<div id="content">
+	<div id="contentWrap">
+      <div id="prodimg">
+
+        <!--main product image goes here. 480x307px-->
+        <img src="Images/DG2061side.png" width="480" height="307" alt="DG2061" />
+        
+      </div>
+        <div id="details">
+            <h1>Marc by Marc Jacobs</h1>
+       	  	<h2>Aviator Sunglasses</h2>
+            <span id="price">$399.99</span>
+            <span id="glassesDesc">Metal has never looked better than on these Prada aviator shades. They feature gunmetal colored frames and grey polarized lenses that give you an instant understated style.</span>
+        
+        	<div id="colors">
+              <h3>Color</h3>
+			  <a href="#" id="selected"><img src="images/colorBlue.gif" width="30" height="30" alt="Blue" /></a>
+              <a href="#"><img src="images/colorBrown.gif" width="30" height="30" alt="Brown" /></a>
+    </div>
+            
+
+            <form action="javascript:alert('Submitted')" method="post" name="glassesForm">
+			  <label for="qty">Qty.</label> 
+              <input name="qty" id="qty" type="text" value="1"/>
+              
+              <label for="color">Color</label> 
+              <select name="formColor">
+                <option selected="selected">Brown</option>
+                <option>Gray</option>
+                <option>Green</option>
+              </select>
+
+              <input type="submit" class="button" value="Add to Cart" />
+
+            </form>
+
+      </div>
+	</div>
+</div>
+
+<div id="picker"> </div>    
+<div id="bottomgallery">
+	<div id="bottomgalleryCont">
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+        <a href="#"><img src="images/tempSmall.png" width="145" height="90" alt="temp" /></a>
+	</div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Aurora Sunglasses Home</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#container {
+	height:700px;
+}
+#contenta img{
+	padding-left:15px;
+}
+#edgeleft{
+	height:650px;
+}
+#edgeright{
+	height:650px;
+}
+#contenta {
+	width:1000px;
+	height:538px;
+	margin: 0 auto;
+	padding: 80px 28px 0 28px;
+	position:relative;
+}
+
+#lownav {
+	position:relative;
+	text-align:center;
+	width:960px;
+	border-top: 1px solid #999;
+	padding-top:20px;
+	color:#323232;
+	font-family:Georgia;
+	margin:20px auto 0 auto;
+	left:-28px;
+}
+#lownav ul {
+ 	list-style: none;
+	text-align: center;
+	
+}
+#lownav li {
+	padding:60px;
+	width:150px;
+	display:inline;
+	font-size:1.5em;
+}
+#lownav a{
+	text-decoration:none;
+	color:#323232;
+}
+#lownav a:hover{
+	color:#666;
+	text-decoration:none;
+}
+#lownav a:active{
+	color:#FFF;
+	text-decoration:none;
+}
+#lownav a:visited{
+	color:#323232;
+	text-decoration:none;
+}
+#footera{
+	width:1000px;
+	height:50px;
+	margin-top:-93px;
+	background-image:url(images/footerEdgeBkg.png);
+	background-repeat:no-repeat;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/mensro.png','images/womensro.png')">
+	<div id="container">
+<div id="edgeleft">
+</div>
+<div id="edgeright">
+</div>
+<div id="logo">
+<img src="images/logo.png" />
+</div>
+<div id="contenta">
+
+<a href="gallerymen.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mensro','','images/mensro.png',1)"><img src="images/mens.png" alt="Mens" name="mensro" width="450" height="293" border="0" id="mensro" /></a>
+<a href="gallerywomen.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('womens','','images/womensro.png',1)"><img src="images/womens.png" alt="Womens" name="womens" width="450" height="294" border="0" id="womens" /></a>
+<div id="lownav">
+<ul>
+<li><a href="gallerymen.htm">Mens</a></li>
+<li><a href="gallerywomen.htm">Womens</a></li>
+<li><a href="faq.htm">FAQ</a></li>
+<li><a href="contactus.htm">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div id="footera">
+</div>
+</div> 
+</body>
+</html>
